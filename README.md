@@ -42,7 +42,7 @@
  
  ## - Youtube Video : 
  in this tuto i explained how the script works and i will walk you through the Installation process
- Check Out Youtube Tuto :  
+ Check Out Youtube Tuto : https://youtu.be/tEmdLULBUTQ
  
 
 ## - License :

@@ -16,19 +16,19 @@
   </a>
 </p>
 
-## ✔ Demo 
+## - Demo 
 
 <p align=left>
   <img src="https://media.giphy.com/media/eNpZCgxuSDzgCbRHCX/giphy.gif" >
 </p>
 
 
-## 📗 About :
+## - About :
 
 <p>it's a python script to control a 3d character's face movements by capturing user's face landmarks </p><p>using OpenCv,
-and send it to the Blender app to make the character interact with it.</p><br>
+and send it to the Blender app to make the character interact with it.</p>
 
-## ⚙️ Install prerequisites: :
+## - Install prerequisites: :
 
  1. Download Blender 2.82 [HERE](https://download.blender.org/release/Blender2.82/blender-2.82-windows64.msi)
  2. Install Requirement Modules 
@@ -39,15 +39,15 @@ and send it to the Blender app to make the character interact with it.</p><br>
          <br> `python -m pip install opencv-contrib-python numpy ` 
  3. Download Character file [HERE](https://cloud.blender.org/p/characters/5718a967c379cf04929a4247)
  4. Download Project Repo [HERE](https://github.com/joeVenner/control-3d-character-using-python/archive/master.zip)
- 5. Download Face Landmarks Model [HERE](https://github.com/kurnianggoro/GSOC2017/archive/master.zip)<br>
+ 5. Download Face Landmarks Model [HERE](https://github.com/kurnianggoro/GSOC2017/archive/master.zip)
  
  
- ## ▶️ Youtube Video : 
- in this tuto i explained how the script works and i will walk you through the Installation process<br>
- Check Out Youtube Tuto :  <br>
+ ## - Youtube Video : 
+ in this tuto i explained how the script works and i will walk you through the Installation process
+ Check Out Youtube Tuto :  
  
 
-## 📝 License :
+## - License :
 
 Please see the **[LICENSE](LICENSE)** included in this repository for a full copy of the MIT license, which this project is licensed under.
  

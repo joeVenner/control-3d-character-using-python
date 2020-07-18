@@ -25,15 +25,13 @@
 
 ## - About :
 
-<p>it's a python script to control a 3d character's face movements by capturing user's face landmarks </p><p>using OpenCv,
-and send it to the Blender app to make the character interact with it.</p>
+<p>it's a python script to control a 3d character's face movements by capturing user's face landmarks </p>
 
 ## - Install prerequisites :
 
  1. Download Blender 2.82 [HERE](https://download.blender.org/release/Blender2.82/blender-2.82-windows64.msi)
- 2. Install Requirement Modules 
-       Windows :
-       Open Command Prompt as Administrator
+ 2. Install Requirement Modules <br>
+       Windows : Open Command Prompt as Administrator 
        <br>` cd "C:\Program Files\Blender Foundation\Blender 2.82\2.82\python\bin"`
          <br> `python -m pip install --upgrade pip  `
          <br> `python -m pip install opencv-contrib-python numpy ` 

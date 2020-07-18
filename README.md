@@ -34,7 +34,7 @@ and send it to the Blender app to make the character interact with it.</p>
  2. Install Requirement Modules 
        Windows :
        Open Command Prompt as Administrator
-       <br>` cd "C:\Program> Files\Blender Foundation\Blender 2.82\2.82\python\bin"`
+       <br>` cd "C:\Program Files\Blender Foundation\Blender 2.82\2.82\python\bin"`
          <br> `python -m pip install --upgrade pip  `
          <br> `python -m pip install opencv-contrib-python numpy ` 
  3. Download Character file [HERE](https://cloud.blender.org/p/characters/5718a967c379cf04929a4247)

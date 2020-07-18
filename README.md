@@ -38,6 +38,20 @@ and send it to the Blender app to make the character interact with it.</p>
          <br> `python -m pip install --upgrade pip  `
          <br> `python -m pip install opencv-contrib-python numpy ` 
  3. Download Character file [HERE](https://cloud.blender.org/p/characters/5718a967c379cf04929a4247)
+ 4. Download Project Repo [HERE](https://github.com/joeVenner/control-3d-character-using-python/archive/master.zip)
+ 5. Download Face Landmarks Model [HERE](https://github.com/kurnianggoro/GSOC2017/archive/master.zip)
+ 
+ 
+ 
+ 
+ 
+## 📝 License :
+
+Please see the **[LICENSE](LICENSE)** included in this repository for a full copy of the MIT license, which this project is licensed under.
+ 
+
+
+
 
 
 

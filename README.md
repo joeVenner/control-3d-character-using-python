@@ -1,4 +1,9 @@
 
+
+
+<p align=center>
+  <img src="https://i.ibb.co/MMDL3rM/Corporate-Work-Blog-Banner.png" >
+</p>
 <p align="center">
   <a href="https://www.youtube.com/channel/UCKvgGs-ALhvOq9u95PHXHNw">
       <img src="https://img.shields.io/badge/YB-Python%20with%20Joe-red" alt="Youtube Channel"/>
@@ -11,14 +16,9 @@
   </a>
 </p>
 
-<p align=center>
-  <img src="https://i.ibb.co/MMDL3rM/Corporate-Work-Blog-Banner.png" >
-</p>
+## ✔ Demo 
 
-
-## ✔ Controlling a 3D character using OpenCv and Blender 
-
-<p align=center>
+<p align=left>
   <img src="https://media.giphy.com/media/eNpZCgxuSDzgCbRHCX/giphy.gif" >
 </p>
 

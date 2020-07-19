@@ -2,7 +2,7 @@ import bpy
 import cv2
 import time
 import numpy
-import pafy
+
 
 # Download trained model (lbfmodel.yaml)
 # https://github.com/kurnianggoro/GSOC2017/tree/master/data
@@ -47,10 +47,7 @@ class OpenCVAnimOperator(bpy.types.Operator):
     _timer = None
     _cap  = None
     stop = False
-    #using YT video as inpute | Goto Line 215
-    url = 'https://www.youtube.com/watch?v=lQnLwUfwgyA'
-    vpafy = pafy.new(url)
-    play = vpafy.getbest(preftype="mp4")
+  
     
     # Webcam resolution:
     width = 640
@@ -212,8 +209,7 @@ class OpenCVAnimOperator(bpy.types.Operator):
     
     def init_camera(self):
         if self._cap == None:
-            #change play.url to 0 if you want to use webcam
-            self._cap = cv2.VideoCapture(play.url)
+            self._cap = cv2.VideoCapture(0)
             self._cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.width)
             self._cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.height)
             self._cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)

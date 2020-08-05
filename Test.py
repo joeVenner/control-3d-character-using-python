@@ -1,13 +1,10 @@
 import numpy as np
 import cv2 as cv
-import time, pafy
+import time
 
 # OpenCV Facial Capture Test 
-url = 'https://www.youtube.com/watch?v=lQnLwUfwgyA'
-vpafy = pafy.new(url)
-play = vpafy.getbest(preftype="mp4")
-
-_cap = cv.VideoCapture(play.url)
+landmark_model_path = "C:\\Users\\Joe\\Documents\\AnimationUsingPython\\data\\lbfmodel.yaml"
+_cap = cv.VideoCapture(0)
 _cap.set(cv.CAP_PROP_FRAME_WIDTH, 512)
 _cap.set(cv.CAP_PROP_FRAME_HEIGHT, 512)
 _cap.set(cv.CAP_PROP_BUFFERSIZE, 1)
@@ -18,7 +15,7 @@ try:
     # Download the trained model lbfmodel.yaml:
     # https://github.com/kurnianggoro/GSOC2017/tree/master/data
     # and update this path to the file:
-    facemark.loadModel("./data/lbfmodel.yaml")
+    facemark.loadModel(landmark_model_path)
 except cv.error:
     print("Model not found")
 

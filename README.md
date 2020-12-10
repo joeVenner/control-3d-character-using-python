@@ -41,7 +41,7 @@
  
  ## - Youtube Video : 
  in this tuto i explained how the script works and i will walk you through the Installation process
- Check Out Youtube Tuto : https://youtu.be/tEmdLULBUTQ
+ Check it Out  <br>Link : https://youtu.be/tEmdLULBUTQ
  
 
 ## - License :

@@ -45,10 +45,11 @@
  
 
 ## - License :
-[![HitCount](http://hits.dwyl.com/joeVenner/control-3d-character-using-python.svg)](http://hits.dwyl.com/joeVenner/control-3d-character-using-python)
-
 Please see the **[LICENSE](LICENSE)** included in this repository for a full copy of the MIT license, which this project is licensed under.
- 
+
+
+
+
 
 
 

@@ -11,6 +11,8 @@ _cap.set(cv.CAP_PROP_BUFFERSIZE, 1)
 time.sleep(0.5)
 
 facemark = cv.face.createFacemarkLBF()
+
+# error detection 
 try:
     # Download the trained model lbfmodel.yaml:
     # https://github.com/kurnianggoro/GSOC2017/tree/master/data
@@ -25,6 +27,8 @@ if cascade.empty() :
     exit()
 
 print("Press ESC to stop")
+
+# finite loop 
 while True:
     _, frame = _cap.read()
     

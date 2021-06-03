@@ -195,7 +195,7 @@ class OpenCVAnimOperator(bpy.types.Operator):
                     
                     # draw face markers
                     for (x, y) in shape:
-                        cv2.circle(image, (x, y), 2, (0, 255, 255), -1)
+                        cv2.circle(image, (int(x), int(y)), 2, (0, 255, 255), -1)
             
             # draw detected face
             for (x,y,w,h) in faces:
